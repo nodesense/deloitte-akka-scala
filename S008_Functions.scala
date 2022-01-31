@@ -16,21 +16,21 @@ object S008_Functions extends  App {
     // multi line
     a + b // return value
   }
-  
+
   show()
 
   println( power(5) )
   println (add(10, 20))
-  
+
   // functions calling is a syntatic sugar in scala
   // scala generate code behind functions
   // every function has apply method
   // power(5) is calling power.apply(5)
-  
+
   println( power.apply(5)) // 25
   println (add.apply(10, 20)) // 30
   show.apply() // print Hello
-  
+
 
 
 
